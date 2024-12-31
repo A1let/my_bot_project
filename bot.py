@@ -9,7 +9,7 @@ async def echo(update: Update, context):
 
 def main():
     # Создаём приложение
-    application = Application.builder().token("ВАШ_ТОКЕН_БОТА").build()
+    application = Application.builder().token("8166850462:AAE7_7MynEpYk4ucffJymiG9SZxyxx3qcHQ").build()
 
     # Добавляем обработчики команд
     application.add_handler(CommandHandler("start", start))
